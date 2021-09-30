@@ -18,5 +18,28 @@
     echo nl2br("\r\n");
     echo('String replace of "Hello World: "');
     echo str_replace("Hello", "Bye", "Hello World");
-    
+    echo("pi: " );
+    echo(pi());
+    echo nl2br("\n");
+    echo("Minimum of 10, 9, 500, 600, 3, 2, 5764, 0.0001: " );
+    echo(min(10, 9, 500, 600, 3, 2, 5764, 0.0001));
+    echo nl2br("\n");
+    echo("Maximum of 10, 9, 500, 600, 3, 2, 5764, 0.0001: " );
+    echo(max(10, 9, 500, 600, 3, 2, 5764, 0.0001));
+    echo nl2br("\n");
+    echo("Absolute value of -7356329631: " );
+    echo(abs(-7356329631));
+    echo nl2br("\n");
+    echo("square root of 6405432: " );
+    echo(sqrt(6405432));
+    echo nl2br("\n");
+    echo("Round of 6405432.99: ");
+    echo(round(6405432.99));
+    echo nl2br("\n");
+    echo("Random number between 1-3: ");
+    echo(rand(1, 3));
+    echo nl2br("\n");
+    echo("Random number: ");
+    echo(rand());
 ?>
+
